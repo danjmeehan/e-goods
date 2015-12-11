@@ -42,5 +42,28 @@ body{
 #products{
   margin:auto 100px;
   padding:25px;
-  background-color:#ccc; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+  background-color:#3B28CC; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+}
+
+#apple {
+  height: 20%;
+  width: 20%;
+}
+  
+.relative{
+  position: relative;
+  background-color: green;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.productInfo{
+  display: inline-block;
+  background-color: red;
+  width:80%;
+  height:50%;
+  position: absolute;
+  top:0px
+  right:0px;
+  text-align: center;
 }
