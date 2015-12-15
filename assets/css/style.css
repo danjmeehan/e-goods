@@ -41,46 +41,53 @@ body{
   color:blue;
   margin:0px 10px;
 }
-#products{
+/*#products{
   margin:auto 100px;
   padding:25px;
-  background-color:#3B28CC; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+  background-color:#3B28CC;  
+}*/
+.sidebar{
+  background-color: #D5DCDE;
+  height: 490px;
+  width: 200px;
+  margin-left: 50px;
+  float: left;
+  padding-left: 10px;
+  border-radius: 5px;
 }
-
-  
+.sidebar ul{
+   list-style-type:none;
+}
 .productContainer{
   background-color: #D5DCDE;
   height: 150px;
   width: 1000px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 50px;
   margin-bottom: 20px;
   position: relative;
+  float: right;
+  border-radius: 5px;
 }
-
 .productContainer .fruitPic {
    width:15%; 
    height:100%; 
    float: left;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
 }
-
 .productContainer .productInfo{
   background-color: #D5DCDE;
-  width:50%;
-  height:50%;
   position: absolute;
   top:0px;
-  left: 500px;
-  
+  left:450px;
+/*  border-style: solid;*/
 }
-
 .productContainer .price{
   font-size: 20px;
   position: absolute;
   top:100px;
   left:200px;
 }
-
 .productContainer .learn{
   position: absolute;
   top: 100px;
