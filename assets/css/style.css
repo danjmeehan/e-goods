@@ -2,6 +2,7 @@ body{
   /* By default, the body has margins. We want to reset these so our elements can span the entire width of the page. */
   margin:0;
   background-color:#3B28CC;
+  font-family: 'Titillium Web', sans-serif;
 }
 #header{
   background:rgb(250,250,250);
